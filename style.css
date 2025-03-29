@@ -1,0 +1,53 @@
+body{
+    text-align:  center;
+}
+
+.btn{
+    height: 140px;
+    width: 140px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 10px 10px auto;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;    
+}
+.red{
+    background-color: #B82132;
+}
+.yellow{
+    background-color: #FFB22C;
+}
+.green{
+    background-color: #638C6D;
+}
+.purple{
+    background-color: #66347F;
+}
+
+.start-btn{
+    margin-top: 30px;
+    width: 250px;   
+    height: 40px;
+    border-radius: 20px;
+    background-color: #8e4f3c;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+    box-shadow: 5px 5px 3px rgb(82, 82, 82);
+}
+
+.flash-btn{
+    background-color: white;
+}
+
+.user-flash-button{
+    background-color: black;
+}
+
+.transform-start-button{
+    transform: translate(3px, 5px);
+    box-shadow: none;
+}
