@@ -107,8 +107,8 @@ function checkAns(index) {
             console.log("Same Value");
         } 
     } else {
+        startButton.removeAttribute("disabled");
         heading2.innerHTML = `Game Over..! Your Score Was <b> ${level} </b> <br> Press Start Button To Play Again`;
-        startButton.setAttribute('disabled', false);
         resetGame();
         console.log("Game Over");
     }
@@ -120,5 +120,4 @@ function resetGame() {
     enableUserButtons = false;
     gameColorCollection = [];
     userColorCollection = [];
-
 }
